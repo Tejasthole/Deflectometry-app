@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/picSurfaceView" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x101" />
+    <ImageView android:id="@+id/iv_main" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup android:id="@+id/radioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <RadioButton android:id="@+id/s_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 sec" />
+        <RadioButton android:id="@+id/s_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2 sec" />
+        <RadioButton android:id="@+id/s_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3 sec" />
+        <RadioButton android:id="@+id/s_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="5 sec" />
+        <RadioButton android:id="@+id/s_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10 sec" />
+    </RadioGroup>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="next" android:layout_below="@+id/radioGroup" android:layout_alignParentLeft="true" android:onClick="onnext" android:layout_alignParentStart="true" />
+</RelativeLayout>
